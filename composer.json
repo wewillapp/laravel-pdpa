@@ -1,0 +1,21 @@
+{
+  "name": "wewillapp/laravel-pdpa",
+  "version": "0.1.0",
+  "description": "Cookie consent(aka PDPA) popup utility for laravel",
+  "type": "library",
+  "license": "MIT",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Wewillapp\\LaravelPdpa\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Wewillapp\\LaravelPdpa\\LaravelPdpaServiceProvider"
+      ]
+    }
+  }
+}

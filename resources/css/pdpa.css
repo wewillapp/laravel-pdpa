@@ -1,0 +1,35 @@
+.pdpa-dialog {
+  background-color: rgba(0,0,0, 0.4);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+.pdpa-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.pdpa-message {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.pdpa-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.pdpa-btn.accept-btn {
+  background-color: green;
+  color: white;
+}
+
+.pdpa-btn.reject-btn {
+  background-color: red;
+  color: white;
+}
